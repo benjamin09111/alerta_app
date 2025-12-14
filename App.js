@@ -131,15 +131,15 @@ export default function App() {
           <View style={styles.premiumTextContent}>
             <View style={styles.premiumTitleRow}>
               <Ionicons name="star" size={20} color="#FFD700" style={{ marginRight: 8 }} />
-              <Text style={styles.premiumTitle}>Opción Premium</Text>
+              <Text style={styles.premiumTitle}>Premium Option</Text>
             </View>
-            <Text style={styles.premiumSubtitle}>Obtener Premium por 5EUR. Servicio 24 Horas.</Text>
+            <Text style={styles.premiumSubtitle}>Get Premium for 5EUR. 24/7 Service.</Text>
           </View>
           <TouchableOpacity
             style={styles.premiumButton}
             onPress={() => setPremiumModalVisible(true)}
           >
-            <Text style={styles.premiumButtonText}>Saber más</Text>
+            <Text style={styles.premiumButtonText}>Learn More</Text>
           </TouchableOpacity>
         </View>
 
@@ -321,10 +321,7 @@ export default function App() {
 
             <ScrollView style={{ maxHeight: 300 }}>
               <Text style={styles.premiumModalText}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </Text>
-              <Text style={styles.premiumModalText}>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                By subscribing to our membership, you join a 24/7 service dedicated to monitoring your signals and emergencies. We ensure your well-being by immediately contacting your emergency numbers and collaborating with authorities whenever necessary.
               </Text>
             </ScrollView>
 
